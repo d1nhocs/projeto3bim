@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AndreyMusic - Seu Site de Músicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="menu-toggle">&#9776;</div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Músicas</a>
+            <a href="#">Artistas</a>
+            <a href="#">Lançamentos</a>
+        </nav>
+        <div class="profile">
+            <img src="TopSite/2colcheias.png" alt="Perfil">
+            <a>AndreyMusic - Beta Version</a>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Busque uma música...">
+        <button id="searchButton">Buscar</button>
+    </div>
+
+    <main>
+        <section id="home">
+            <h1>Bem-vindo ao AndreyMusic</h1>
+            <p>Descubra novas músicas e artistas a qualquer momento!</p>
+        </section>
+
+        <section id="music-list">
+            <h2>Clipe em Destaque</h2>
+            <div class="gradeMusica">
+                <div class="musica">
+                    <h2>Morena</h2>
+                    <p class="artista">NATTAN</p>
+                    
+                    <div class="video-container">
+                        <video controls>
+                            <source src="Musica/morena-clipe.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>
+                    </div>
+
+                    <audio controls>
+                        <source src="Musica/morena-nattan.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; AndreyMusic - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
